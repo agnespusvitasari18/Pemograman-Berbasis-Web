@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="" rel="stylesheet" />
+        <title>Praktikum </title>
+    </head>
+    <body>
+        <h1 id="top">PRAKTIKUM!</h1>
+        <h2>DASAR PEMOGRAMAN WEB</h2>
+        <hr>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. In dolorem, expedita dolorum temporibus dolor fugit nihil facilis eligendi distinctio saepe odit cum quos quia non quo veritatis! 
+             <br> 
+            Ipsum, consequatur pariatur?.
+        </p>
+
+        <img src="gambar.png" alt="deskripsi gambar" height="500px">
+        <hr>
+        
+        <h2>Data SAYA</h2>
+        <table border="2" cellpadding="2" cellspacing="2">
+            <tr>
+                <th>Nomor</th>
+                <th>Nama</th>
+                <th>Kelas</th>
+                <th>Npm</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Agnes Pusvita Sari</td>
+                <td>Sistem Informasi</td>
+                <td>2417052022</td>
+            </tr>
+            <tr>
+                <td colspan="3">Agnes</td>
+                <td rowspan="3">2417052022</td>
+            </tr>
+            <tr>
+                <td colspan="3">Pusvita</td>
+            </tr>
+            <tr>
+                <td colspan="3">Sari</td>
+            </tr>
+        </table>
+        <hr>
+
+        <h2>Formulir</h2>
+        <form action="#">
+            <div>
+            <label for="nama">Nama : </label>
+            <input type="text" placeholder="nama lengkap"
+            </div>
+            <div>
+            <label for="password">Passw : </label>
+            <input type="password" placeholder="6 digit"
+            </div>
+            <button type="submit">simpan</button>
+        </form>
+        <hr>
+
+        <h2>Link!</h2>
+        <a href="https:www.google.com" target="_blank">Link Google</a>
+        <br>
+        <a href="#top">Halaman</a>
+    </body>
+</html>
