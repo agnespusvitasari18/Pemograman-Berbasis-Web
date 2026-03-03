@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+#main-header{
+    background-color: rgb(250, 229, 189);
+    padding: 50px;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(0, 0, 0)
+
+}
+
+label{
+    font-weight: bold;
+}
+
+#btn-submit{
+    background-color: rgb(201, 121, 0);
+    color: white;
+    
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    padding: 50px 40px;
+}
