@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="" rel="stylesheet" />
+        <title>Praktikum </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header id="main-header">
+            <h1 id="top">Form Kehadiran Praktikan</h1>
+        </header>
+    <div class="container">
+        <form action="#">
+            <label>Nama : </label>
+            <input type="text" placeholder="Masukkan nama"><br>
+            <br>
+            <label>NPM : </label>
+            <input type="password" placeholder="Masukkan NPM"><br>
+            <br>
+            <label>Kelas : </label>
+            <select>
+                <option>Pilih kelas</option>
+                <option>A</option>
+            </select><br>
+            <br>
+            <label>Tanggal : </label>
+            <input type="date"><br>
+            <br>
+            <label>Waktu : </label>
+            <input type="time"><br>
+            <br>
+            <button type="submit" id="btn-submit">Submit</button>
+        </form>
+    </div>
+
+    </body>
+</html>
